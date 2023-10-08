@@ -103,7 +103,7 @@ ul {
 
 /* Media Queries */
 @media (max-width:767px){  /* anything smaller than 767px */
-  header {
+  header{
     text-align: center;
   }
 
@@ -112,6 +112,47 @@ ul {
   }
 
   li:not(:last-child) {
-    border-bottom:1px dotted #D8E74A;
+    border-bottom:1px dashed #D8E74A;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  section, 
+  footer { 
+    padding: 2.875em 0;
+  }
+
+  header .container, nav ul {
+    display: flex;
+  }
+
+  header .container{ 
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  nav li{
+    margin-left: 1.25em;
+  }
+
+  .btn { 
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  h1 { 
+    font-size: 2.25rem;
+  }
+
+  h2 { 
+    font-size: 1.75rem;
+  }
+
+  .subheader{
+    font-size: 1.25rem;
+  }
+  p{
+    font-size: 1.125rem;
   }
 }
