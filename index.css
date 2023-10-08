@@ -30,7 +30,7 @@ p {
 .subheader {
   display: block;
   font-size: 1rem;
-  color: #c595a9;
+  color: #DDED44;
 }
 
 .section-two h2 { 
@@ -38,6 +38,21 @@ p {
 }
 
 /*Layout*/
+
+header,
+section,
+footer { 
+  padding: 1.25em 0;
+}
+
+header, 
+.section-two {
+  background-color:#7A72BF;
+}
+
+.section-two{
+  color: #fffdfc;
+}
 .main-image{
   width:100%;
   display: block;
@@ -64,4 +79,9 @@ p {
 
 .feature-item{
   flex: 1 260px;
+}
+
+footer {
+  text-align: center;
+  color: #7A72BF
 }
