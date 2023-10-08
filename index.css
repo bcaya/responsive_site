@@ -85,3 +85,18 @@ footer {
   text-align: center;
   color: #7A72BF
 }
+
+/* Nav */
+nav a {
+  color: #fffdfc;
+  text-decoration: none;
+  font-size:1.125rem;
+  padding: 0.85em 0;
+  display: block;
+}
+
+ul { 
+  padding: 0;
+  margin: 0; 
+  list-style-type: none;
+}
