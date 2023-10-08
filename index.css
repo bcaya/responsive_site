@@ -100,3 +100,18 @@ ul {
   margin: 0; 
   list-style-type: none;
 }
+
+/* Media Queries */
+@media (max-width:767px){  /* anything smaller than 767px */
+  header {
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 1.5em; 
+  }
+
+  li:not(:last-child) {
+    border-bottom:1px dotted #D8E74A;
+  }
+}
