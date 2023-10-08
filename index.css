@@ -37,6 +37,45 @@ p {
   color: inherit;
 }
 
+/* Links */
+
+a {
+  color: #44EDA9;
+  text-decoration: underlined dotted;
+}
+
+a:hover, 
+a:active{
+  color:#D8E74A;
+}
+
+.btn {
+  font-size: 1.125rem;
+  text-align: center; 
+  font-weight: 500;
+  text-decoration: none;
+  display: block; 
+  padding: 0.5em 1em; 
+  margin-bottom: 1em;
+  border-radius: 4.6px;
+}
+
+.btn-dark { 
+  color: #fffdfc;
+  background: #7A72BF;
+}
+
+.btn-mid{
+  color: white;
+  background: #d585a6;
+}
+
+.btn-light{
+  color:#d585a6;
+  background:#fffdfc;
+}
+
+
 /*Layout*/
 
 header,
