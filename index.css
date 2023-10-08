@@ -1,7 +1,13 @@
 body{
   margin:0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
+/*Typography*/
+
+
+
+/*Layout*/
 .main-image{
   width:100%;
   display: block;
